@@ -1,0 +1,440 @@
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Cormorant', serif;
+}
+
+.header {
+    background-color: rgb(17, 17, 17);
+    position: sticky;
+    top: 0;
+
+}
+
+.logotitle {
+    display: inline;
+}
+
+#logo {
+    display: inline;
+}
+
+#logo>img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: 3px solid rgb(244, 82, 109);
+}
+
+.title {
+    display: inline;
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    /* font-family: 'Cormorant', serif;*/
+    /* font-family: 'Poppins', sans-serif;  */
+}
+
+ul {
+    display: flex;
+    margin: auto;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navmenu {
+    float: right;
+}
+
+li {
+    padding: 5px;
+    margin: 10px;
+    list-style: none;
+
+}
+
+.navbar {
+    font-size: 18px;
+}
+
+a>p:hover {
+    color: rgb(244, 82, 109);
+    text-shadow: 2px 2px 2px 2px rgb(68, 66, 66);
+}
+
+#Home {
+    color: rgb(244, 82, 109);
+}
+
+#About,
+#Services,
+#Contact {
+    color: white;
+}
+
+.loginbutton {
+    box-sizing: border-box;
+    margin: 3% auto 3% 3%;
+    align-items: center;
+}
+
+#login {
+    display: inline;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    margin-right: 10px;
+}
+
+input#login {
+    background-color: rgb(214, 79, 102);
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Cormorant', serif;
+    font-weight: 800;
+
+}
+
+#login:hover {
+    margin-top: auto;
+    color: white;
+    background-color: #281f1f;
+    border: 2px solid white;
+
+}
+
+.imagetext {
+    display: inline;
+}
+
+.imagetext>img {
+    margin-top: 0%;
+    width: 100%;
+    height: 700px;
+
+}
+
+.opachead>p {
+    font-size: 5.5rem;
+    /* font-family: 'Poppins', sans-serif; */
+    color: #ffffff;
+    margin: 0% 5% 2% 5%;
+    /* font-weight: bold; */
+
+}
+
+.opactext>p {
+    font-size: 22px;
+    margin: 0% 5% 2% 5%;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 500;
+    color: rgb(205, 205, 205);
+}
+
+.content {
+    /* width: 100%; */
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.inputmodule,
+.detect,
+.GPS {
+    background-color: rgb(30, 30, 30);
+    border: 2px solid black;
+    width: 33%;
+    margin: 2%;
+    padding: 3%;
+    border-radius: 20px;
+    height: 400px;
+
+}
+
+label {
+    background-color: indigo;
+    color: white;
+    margin: 30px 50px;
+    padding: 10px;
+    /* font-family: sans-serif; */
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.inputmodule:hover,
+.detect:hover,
+.GPS:hover {
+    background-color: rgb(12, 12, 12);
+
+}
+
+.inputmodule>p,
+.detect>p,
+.GPS>p {
+    /* border: 2px solid rgb(32, 123, 180); */
+    font-size: 25px;
+    text-align: center;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-weight: 600;
+    /* color: rgb(84, 88, 218); */
+    color: slateblue;
+
+}
+
+.inputmodule>img,
+.detect>img,
+.GPS>img {
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.inputmodule>label:hover {
+    background-color: rgb(103, 5, 173);
+}
+
+.inputmodule>.info,
+.detect>.info,
+.GPS>.info {
+    position: relative;
+    /* border: 2px solid #535a00; */
+    padding-bottom: 30px;
+    display: none;
+    left: auto;
+    font-size: 20px;
+}
+
+.inputmodule:hover>.info,
+.detect:hover>.info,
+.GPS:hover>.info {
+    display: block;
+    color: #736e6e;
+}
+
+.mobileapp {
+    width: auto;
+    height: 400px;
+    margin-right: auto;
+    margin-left: 3%;
+    /* background-color: #736e6e; */
+}
+
+.mobileapp>img {
+    height: 400px;
+    float: left;
+    border-radius: 50%;
+}
+
+.mobileapp>p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#ml,
+#imgprocessing,
+#cloud {
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 0%;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+#ml:hover,
+#imgprocessing:hover,
+#cloud:hover {
+    opacity: 1;
+}
+
+#heading {
+    font-size: 45px;
+    margin-left: 5%;
+    color: rgb(214, 79, 102);
+    text-align: center;
+    margin-top: 3%;
+}
+
+.partners {
+    height: 200px;
+    margin-left: 20%;
+    margin-bottom: 0%;
+}
+
+marquee {
+    margin-left: 5%;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+img#repairpartners {
+    height: 75px;
+    border-radius: 50%;
+    margin: 0%;
+    margin-right: 40px;
+    transition: transform .2s;
+    margin-top: 50px;
+}
+
+img#repairpartners:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.example {
+    background-color: rgb(17, 17, 17);
+    margin: 2%;
+    border-radius: 2%;
+    padding: 2%;
+    /* border : 2px solid red; */
+}
+.examplepara{
+    display: flex;
+    /* height:200px; */
+    /* border:2px solid yellow; */
+    /* overflow: auto; */
+}
+.imgdetect {
+    display: flex;
+    height:280px;
+    /* border : 5px solid salmon; */
+}
+
+.imgdetect>img {
+    float: left;
+    height: 350px;
+    /* width: 600px; */
+    /* border: 2px solid green; */
+}
+
+.imgdetect>p {
+    font-size: 30px;
+    display: flex;
+    height: 300px;
+    /* border:2px solid orange; */
+}
+
+#detect-header {
+    font-size: 50px;
+    display: inline;
+    color: rgb(214, 79, 102)
+}
+
+#detect-mainhead {
+    font-size: 30px;
+    margin-bottom: 1%;
+    padding: 2%;
+    color: slateblue;
+    font-weight: bold;
+}
+
+#detect-sidehead {
+    font-size: 25px;
+    display: inline;
+    font-weight: 800;
+    padding-right: 10px;
+    /* color:rgb(63, 26, 208); */
+}
+
+
+.firstdetect,
+.seconddetect,
+.thirddetect {
+    /* margin:0%; */
+    border-radius: 15px;
+    padding: 8px;
+    background-color: #1d1c1c;
+    display: inline-block;
+    height: 200px;
+    width: 30%;
+    margin-right:10px;
+}
+
+.example>.extradetect {
+    margin: 25px;
+}
+
+.footer {
+    background-color: #121212;
+    /* border:2px solid red; */
+    height: 350px;
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+}
+
+.start,
+.working,
+.contactus {
+    /* border:2px solid rgb(16, 206, 44); */
+    margin: 30px;
+    width: 33%;
+    padding: 40px;
+    padding-bottom: 0%;
+}
+
+.middle {
+    display: flex;
+    /* padding:5px; */
+    width: 350px;
+    /* border:2px solid red; */
+}
+
+#firstline,
+#Secondline {
+    margin: 4px;
+    width: auto;
+    /* border:2px solid rgb(34, 25, 157); */
+    margin-right: 20px;
+}
+
+#foothead,
+#hours,
+#Contactfooter {
+    font-size: 25px;
+    color: slateblue;
+}
+
+#bookingbtn {
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #121212;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 0%;
+}
+
+#bookingbtn:hover {
+    background-color: white;
+    color: black;
+}
+
+#closed {
+    color: rgb(214, 79, 102);
+}

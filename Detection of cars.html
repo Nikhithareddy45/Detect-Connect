@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detect & Connect</title>
+    <link rel="shortcut icon"
+    href="src/img/Favicon.png"
+    type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=PT+Sans&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logotitle">
+            <div id="logo">
+                <img src="src/img/Favicon.png"
+                    alt="logo" srcset="">
+            </div>
+            <div class="title">Detect & Connect</div>
+        </div>
+        <div class="navmenu">
+            <ul>
+                <li> <a href="#" target="_self">
+                        <p class="navbar" id="Home">Home</p>
+                    </a></li>
+                <li><a href="About.html" target="_blank">
+                        <p class="navbar" id="About">About</p>
+                    </a></li>
+                <li><a href="Services.html" target="_blank">
+                        <p class="navbar" id="Services">Services</p>
+                    </a></li>
+                <li><a href="Booking.html" target="_blank">
+                        <p class="navbar" id="Contact">Booking</p>
+                    </a></li>
+                <li>
+                    <div class="loginbutton">
+                        <a href="login.html"><input id=login type="button" value="Login"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="imagetext">
+        <img src="src/img/Damaged car bg.jpg"
+            alt="Damaged Car" srcset="">
+    </div>
+
+
+    <div class="opachead">
+        <p>Detection of Cars by capturing photo</p>
+    </div>
+    <div class="opactext">
+        <p>Detecting the cars by capturing photos is a technologically advanced approach that leverages Artificial
+            Intelligence and computer vision techniques.Our innovative system makes it easy to detect vehicle damage by
+            simply taking a photo of the car from your
+            smartphone. Our cutting-edge AI technology reduces the need for human intervention and streamlines the
+            vehicle repair process. </p>
+    </div>
+    <p id=heading>Process</p>
+
+    <div class="content">
+
+        <div class="inputmodule">
+            <p>Photo Capture</p>
+            <img src="src/img/Mobile capture.jpg"
+                alt="Camera pic upload" srcset="">
+            <input type="file" id="Car-pic" />
+            <label for="Car-pic">Choose File</label>
+            <p class="info">
+                Capturing a photo of a car to detect damage involves using a camera or a mobile device to take pictures
+                of the vehicle from various angles.</p>
+
+        </div>
+        <div class="detect">
+            <p>Detection</p>
+            <img src="src/img/Damage Percentage img.png"
+                alt="Car Detection">
+            <p class="info">Detection on photo capture involves the use of image processing algorithms to
+                identify and analyze potential damages in an image.</p>
+
+        </div>
+        <div class="GPS">
+            <p>GPS Location</p>
+            <img src="src/img/GPS tracker img.jpg" alt="GPS" srcset="">
+            <p class="info">
+                GPS location tracking of a car involves using Global Positioning System technology to monitor and record
+                the vehicle's real-time geographical coordinates. </p>
+        </div>
+    </div>
+    <p id=heading>App Implementation</p>
+    <div class="mobileapp">
+        <img src="src/img/Mobile app image.jpg"
+            alt="Mobile App" srcset="">
+        <p>Implementing a mobile app for detecting vehicle involves several steps such as :
+            <br> Machine Learning
+            , ImagePre-processing, Management
+        </p>
+        <div class="images">
+            <img id="ml" src="src/img/ML image.jpg"
+                alt="Machine learning" srcset="">
+            <img src="src/img/Car deep learning.png"
+                alt="Image-Preprocessing" id="imgprocessing">
+            <img src="src/img/Car review image.jpg"
+                alt="" id="cloud">
+        </div>
+    </div>
+    <p id=heading>Partners</p>
+    <div class="partners">
+        <marquee >        
+        <a href="https://www.jiffylube.com/"><img id=repairpartners
+                src="src/img/Partners/Jiffylube.jpg"
+                alt="Jiffy lube logo" srcset=""></a>
+        <a href="https://www.midas.com/"><img id=repairpartners
+                src="src/img/Partners/midas.png"
+                alt="Midas car logo" srcset=""></a>
+        <a href="https://www.aamco.com/Auto-Repair-Maint/Total-Car-Care-Service"><img id=repairpartners
+                src="src/img/Partners/Aamco.webp" alt="AAMCO car logo"
+                srcset=""></a>
+        <a href="https://www.greasemonkeyauto.com/"><img id=repairpartners
+                src="src/img/Partners/Grease Monkey.png"
+                alt="Grease Monkey car logo" srcset=""></a>
+        <a href="https://www.speedyautocentre.com/"><img id=repairpartners
+                src="src/img/Partners/Speedy Auto Centre.png" alt="Speedy car logo" srcset=""></a>
+        <a href="https://www.pepboys.com/"><img id=repairpartners src="https://fontmeme.com/images/Pep-Boys-Logo.jpg"
+                alt="Pep Boys car logo" srcset=""></a>
+        </marquee>
+    </div>
+    <!-- <div id="heading"> Damage Detected Summary</div>
+    <div class="example">
+        <div class="imgdetect">
+            <p class="extradetect">In this example, the system has detected three areas of damage on the vehicle: the
+                front bumper, rear
+                fender, and driver's side door. Each detected damage is categorized with its corresponding severity
+                level
+                (minor, moderate, or severe) and is described briefly to give the user an overview of the type of damage
+                present on the vehicle.</p>
+            <img src="https://yourvinreport.com/wp-content/uploads/2019/08/Broken_Car.png" alt="Car Detection example">
+        </div>
+        <div class="examplepara">
+            <div class="firstdetect">
+                <p id="detect-mainhead"> Front Bumper:</p><br>
+    
+                <p id="detect-sidehead">Damage Severity: </p> Minor <br>
+                <p id="detect-sidehead">Description: </p>Scratches and scuffs on the front bumper.
+            </div>
+            <div class="seconddetect">
+                <p id="detect-mainhead">Rear Fender:</p>
+                <p id="detect-sidehead"> Description:</p> Scratches and scuffs on the front bumper.<br>
+                <p id="detect-sidehead">Damage Severity:</p> Moderate <br>
+                <p id="detect-sidehead">Description:</p> Dent and paint chipping on the rear fender.
+            </div>
+            <div class="thirddetect">
+                <p id="detect-mainhead">Side Door (Driver's Side):</p>
+                <p id="detect-sidehead"> Description:</p> Scratches and scuffs on the front bumper.
+                <br>
+                <p id="detect-sidehead"> Damage Severity:</p> Severe
+                <br>
+                <p id="detect-sidehead">Description:</p> Deep dent with paint damage on the driver's side door.
+            </div>
+        </div>
+    </div> -->
+    <div class="footer">
+        <div class="start">
+            <p id="foothead">Detect & Connect</p>
+            <p id="description">
+                <!-- Established in XXXX.  -->
+                The experts from Detect & Connect Centre are equipped to deal with
+                the latest automotive technology in vehicles of all makes and keep them in perfect working order.
+            </p>
+            <a href="booking.html" id="booklink"><button id="bookingbtn">
+                    <p id="Booknow">Book Now</p>
+                </button></a>
+        </div>
+
+        <div class="working">
+            <p id="hours">Working Hours</p>
+            <div class="middle">
+                <div id="firstline">
+                    <p>Monday - Friday :</p>
+                    <p>Saturday:</p>
+                    <p>Sunday:</p>
+                </div>
+                <div id="Secondline">
+                    <p> 8:00am - 5:00pm</p>
+                    <p> By Appointment Only</p>
+                    <p id="closed"> Closed</p>
+                </div>
+            </div>
+        </div>
+        <div class="contactus">
+            <p id="Contactfooter">Contact Us</p>
+            <p id="phone">+91 987654321</p>
+            <p id="address">108, Kukatpally, Hyderabad</p>
+        </div>
+</body>
+
+</html>

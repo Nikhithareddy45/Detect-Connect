@@ -1,0 +1,239 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Cormorant", serif;
+}
+
+.container {
+  background-color: rgb(17, 17, 17);
+  position: sticky;
+  top: 0;
+}
+
+.logotitle {
+  display: inline;
+}
+
+#logo {
+  display: inline;
+}
+
+#logo > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 10px;
+  border: 3px solid rgb(244, 82, 109);
+}
+
+.title {
+  display: inline;
+  padding-left: 10px;
+  font-size: 50px;
+  font-weight: 500;
+  /* font-family: 'Cormorant', serif;*/
+  /* font-family: 'Poppins', sans-serif;  */
+}
+
+ul {
+  display: flex;
+  margin: auto;
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navmenu {
+  float: right;
+}
+
+li {
+  padding: 5px;
+  margin: 10px;
+  list-style: none;
+}
+
+.navbar {
+  font-size: 18px;
+  color: white;
+}
+
+a > p:hover {
+  color: rgb(244, 82, 109);
+  text-shadow: 2px 2px 2px 2px rgb(68, 66, 66);
+}
+
+#Home,
+#About,
+#Contact {
+  color: white;
+}
+
+p#Home.navbar:hover,
+p#About.navbar:hover,
+p#Services.navbar:hover,
+p#Contact.navbar:hover {
+  color: rgb(244, 82, 109);
+}
+
+.loginbutton {
+  box-sizing: border-box;
+  margin: 3% auto 3% 3%;
+  align-items: center;
+}
+
+#Services {
+  color: rgb(244, 82, 109);
+}
+
+.loginbutton {
+  box-sizing: border-box;
+  margin: 3% auto 3% 3%;
+  align-items: center;
+}
+
+#login {
+  display: inline;
+  font-size: 20px;
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  margin-right: 10px;
+}
+
+input#login {
+  background-color: rgb(214, 79, 102);
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Cormorant", serif;
+  font-weight: 800;
+}
+
+#login:hover {
+  margin-top: auto;
+  color: white;
+  background-color: #281f1f;
+  border: 2px solid white;
+}
+
+.heading > p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(214, 79, 102);
+  /* border:2px solid blue; */
+}
+
+.allservices {
+  /* border:2px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  padding: 2% 5% 2% 5%;
+}
+
+#service {
+  background-color: #211e1e;
+  margin-bottom: 10%;
+  padding: 10%;
+  height: 250px;
+  width: 330px;
+  border-radius: 10%;
+  transition: transform 0.2s;
+}
+
+#service:hover {
+  cursor: pointer;
+  /* background-color:black ; */
+  transform: scale(1.1);
+}
+
+#Title {
+  font-size: 25px;
+  color: slateblue;
+  display: inline;
+}
+
+#image {
+  height: 70px;
+  border-radius: 50%;
+  /* border:2px solid red; */
+  display: inline;
+}
+
+.footer {
+  background-color: #121212;
+  /* border:2px solid red; */
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 18px;
+}
+
+.start,
+.working,
+.contactus {
+  /* border:2px solid rgb(16, 206, 44); */
+  margin: 30px;
+  width: 33%;
+  padding: 40px;
+  padding-bottom: 0%;
+}
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding:5px; */
+  width: 350px;
+  /* border:2px solid red; */
+}
+
+#firstline,
+#Secondline {
+  margin: 4px;
+  width: auto;
+  /* border:2px solid rgb(34, 25, 157); */
+  margin-right: 20px;
+}
+
+#foothead,
+#hours,
+#Contactfooter {
+  font-size: 25px;
+  color: slateblue;
+}
+
+#bookingbtn {
+  width: 150px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #121212;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 0%;
+}
+
+#bookingbtn:hover {
+  background-color: white;
+  color: black;
+}
+
+#closed {
+  color: rgb(214, 79, 102);
+}

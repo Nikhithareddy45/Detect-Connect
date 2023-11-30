@@ -1,0 +1,119 @@
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(95, 93, 93);
+    border-radius: 20px;
+    margin:auto;
+    transition: transform .2s;
+    
+    background-color: rgb(34, 34, 34);
+}
+.container:hover {
+    transform: scale(1.4);
+} 
+#signup {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    margin-bottom:0%;
+}
+
+#Firstname>input,
+#Lastname>input,
+#Email {
+    height: 30px;
+    background-color: rgb(221, 220, 220);
+    border: none;
+    width: 70%;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px auto 2px 35px;
+}
+
+input[type="email"]{
+    background-color: rgb(221, 220, 220);
+    border:none;
+}
+input[type="email"]:hover{
+    border:2px solid rgb(221, 220, 220);
+}
+#freeac{
+    overflow: auto;
+    text-align: center;
+    margin:5px;
+    padding:5px;
+    font-size: 14px;
+    
+}
+#freeac>a{
+    text-decoration: none;
+    color:rgb(72, 67, 3);
+
+}
+
+#or{
+    margin:8px;
+    text-align: center;
+    font-size: 15px;
+    color:rgb(9, 50, 86);
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+   
+}
+
+#freeac{
+    overflow: auto;
+    text-align: center;
+    margin:5px;
+    padding:5px;
+    font-size: 14px;
+    
+}
+#freeac>a{
+    text-decoration: none;
+    color: rgb(214, 79, 102);
+
+}
+
+#or{
+    margin:8px;
+    text-align: center;
+    font-size: 15px;
+    color:rgb(156, 149, 149);
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+   
+}
+
+#media_icon{
+    background-color: #9EA3B0;
+    height:30px;
+    width:30px; 
+    margin-right: 8px;
+    padding:3px;  
+    border-radius: 50%;
+}
