@@ -48,15 +48,7 @@ body {
   padding-right: auto;
   font-family: "Poppins", sans-serif;
 }
-
-input::placeholder,
-p#submit {
-  color: rgb(134, 33, 33);
-}
-a {
-  text-decoration: none;
-}
-button {
+#Submitbtn {
   background-color: rgb(221, 220, 220);
   border: none;
   width: 80px;
@@ -65,10 +57,19 @@ button {
   margin-right: 50%;
   display: inline-block;
 }
-button:hover {
+#Submitbtn:hover {
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(34, 34, 34);
 }
+input::placeholder,
+p#submit {
+  color: rgb(134, 33, 33);
+}
+
+a {
+  text-decoration: none;
+}
+
 p#notamember,
 #signup {
   color: rgb(214, 79, 102);

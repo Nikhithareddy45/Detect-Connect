@@ -258,12 +258,13 @@ input#login {
   border-radius: 20px;
   font-size: 15px;
   padding: 0%;
+  cursor: pointer;
 }
 
 #bookingbtn:hover {
   background-color: white;
   color: black;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 #closed {

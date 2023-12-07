@@ -13,7 +13,7 @@ body {
   font-family: "Cormorant", serif;
 }
 
-.container {
+.container { 
   background-color: rgb(17, 17, 17);
   position: sticky;
   top: 0;
@@ -37,7 +37,7 @@ body {
 }
 
 .title {
-  display: inline;
+  /* display: inline; */
   padding-left: 10px;
   font-size: 50px;
   font-weight: 500;
@@ -63,11 +63,13 @@ li {
   padding: 5px;
   margin: 10px;
   list-style: none;
+  
 }
 
 .navbar {
   font-size: 18px;
   color: white;
+  
 }
 
 a > p:hover {
@@ -166,6 +168,7 @@ input#login {
 #Title {
   font-size: 25px;
   color: slateblue;
+  font-weight: bold;
   display: inline;
 }
 
@@ -177,7 +180,7 @@ input#login {
 }
 
 .footer {
-  background-color: #121212;
+  background-color: #71707082;
   /* border:2px solid red; */
   height: 350px;
   display: flex;
@@ -191,16 +194,17 @@ input#login {
 .contactus {
   /* border:2px solid rgb(16, 206, 44); */
   margin: 30px;
-  width: 33%;
+  width: 23vw;
   padding: 40px;
   padding-bottom: 0%;
+
 }
 
 .middle {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* padding:5px; */
-  width: 350px;
+  width: 20em;
   /* border:2px solid red; */
 }
 
@@ -215,6 +219,7 @@ input#login {
 #foothead,
 #hours,
 #Contactfooter {
+  font-weight: bold;
   font-size: 25px;
   color: slateblue;
 }
@@ -227,6 +232,7 @@ input#login {
   border-radius: 20px;
   font-size: 15px;
   padding: 0%;
+  cursor: pointer;
 }
 
 #bookingbtn:hover {
@@ -235,5 +241,6 @@ input#login {
 }
 
 #closed {
-  color: rgb(214, 79, 102);
+  color: rgb(224, 31, 63);
+  font-weight: bold;
 }
