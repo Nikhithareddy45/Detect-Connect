@@ -30,7 +30,7 @@ body {
 #Login {
   text-align: center;
   font-size: 25px;
-  color: rgb(255, 255, 255);
+  color:slateblue;
 }
 #username,
 #password {
@@ -55,11 +55,15 @@ body {
   border-radius: 10px;
   margin-left: 13%;
   margin-right: 50%;
-  display: inline-block;
+  padding:1.3vw;
+  color:black;
+  cursor:pointer;
+  
 }
 #Submitbtn:hover {
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(34, 34, 34);
+  color:slateblue;
 }
 input::placeholder,
 p#submit {
@@ -69,7 +73,6 @@ p#submit {
 a {
   text-decoration: none;
 }
-
 p#notamember,
 #signup {
   color: rgb(214, 79, 102);
